@@ -2,7 +2,8 @@
 
 #### Prerequisites
 
-Set `CLIENT_ID` and `CLIENT_SECRET` environment variables before running the app
+Set `CLIENT_ID` and `CLIENT_SECRET` environment variable
+
 Set `KEYCLOAK_URL` environment variable to the keycloak server url
 
 #### How to run

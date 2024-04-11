@@ -1,0 +1,7 @@
+# Ignore everything
+*
+
+# Include only the following files
+
+!index.js
+!package.json

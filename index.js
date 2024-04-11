@@ -15,7 +15,7 @@ fastify.get('/token', async (request, reply) => {
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded',
             },
-            data: `client_id=${clientId}&client_secret=${clientSecret}&grant_type=client_credentials`,
+            data: `client_id=${clientId}&client_secret=${clientSecret}&grant_type=client_credentials&scope=profile+email`
         });
 
         return response.data;

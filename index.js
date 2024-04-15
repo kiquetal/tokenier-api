@@ -1,7 +1,10 @@
 const axios = require('axios');
 const fastify = require('fastify')({logger:true});
 
+fastify.get('/',async (request,reply) => {
+reply.code(200).send({"message":"ok"})
 
+});
 
 fastify.get('/token', async (request, reply) => {
     const clientId = process.env.CLIENT_ID;

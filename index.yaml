@@ -3,6 +3,16 @@ entries:
   tokenizer-api:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-04-15T20:04:47.301938656Z"
+    description: A Helm chart for Kubernetes
+    digest: c9d5438211cefb1cd37fcaf748f4d518887dca0f64c5d339d434224974434e7b
+    name: tokenizer-api
+    type: application
+    urls:
+    - https://github.com/kiquetal/tokenier-api/releases/download/tokenizer-api-0.2.1/tokenizer-api-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-04-15T20:00:36.738023775Z"
     description: A Helm chart for Kubernetes
     digest: 961bd9d80242308d46bd79c14dd4db73ec6ca49450120397990b8fe0c21c25f4
@@ -101,4 +111,4 @@ entries:
     urls:
     - https://github.com/kiquetal/tokenier-api/releases/download/tokenizer-api-0.1.1/tokenizer-api-0.1.1.tgz
     version: 0.1.1
-generated: "2024-04-15T20:00:36.738164258Z"
+generated: "2024-04-15T20:04:47.301985284Z"
